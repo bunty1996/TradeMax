@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/paint1" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="201.00$"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:fontFamily="@font/sf_ui_display_bold_58646a511e3d9" />
+
+    <TextView
+        android:id="@+id/tv_headling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heron Preston"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tp Cement"
+        android:singleLine="true"
+        android:fontFamily="@font/sf_ui_display_regular"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</LinearLayout>

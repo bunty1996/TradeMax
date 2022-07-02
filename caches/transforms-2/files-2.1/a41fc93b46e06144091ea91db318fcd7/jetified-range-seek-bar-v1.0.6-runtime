@@ -1,0 +1,4 @@
+com.innovattic.rangeseekbar.BuildConfig
+com.innovattic.rangeseekbar.RangeSeekBar
+com.innovattic.rangeseekbar.RangeSeekBar$Companion
+com.innovattic.rangeseekbar.RangeSeekBar$SeekBarChangeListener

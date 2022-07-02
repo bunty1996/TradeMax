@@ -1,0 +1,15 @@
+me.relex.circleindicator
+animator scale_with_alpha
+attr ci_animator
+attr ci_animator_reverse
+attr ci_drawable
+attr ci_drawable_unselected
+attr ci_gravity
+attr ci_height
+attr ci_margin
+attr ci_orientation
+attr ci_width
+drawable white_radius
+id horizontal
+id vertical
+styleable BaseCircleIndicator ci_animator ci_animator_reverse ci_drawable ci_drawable_unselected ci_gravity ci_height ci_margin ci_orientation ci_width

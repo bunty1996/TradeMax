@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.trademax">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name=".Utils.MyApplication"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/appicon_play"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/appicon_play"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TradeMax"
+        android:usesCleartextTraffic="true"
+        tools:ignore="HardcodedDebugMode,Instantiatable">
+
+        <activity android:name=".Activities.AddCard.SelectCardActivity"></activity>
+        <activity android:name=".Activities.Support.SupportActivity" />
+        <activity android:name=".Activities.Privacy_Policy.Privacy_PolicyActivity" />
+        <activity android:name=".Activities.Term_Condition.Term_ConditionActivity" />
+        <activity android:name=".Activities.FavouriteItem.FavouriteitemActivity" />
+        <activity android:name=".Activities.SuccessScreen.SuccessActivity" />
+        <activity android:name=".Activities.HomeItemsActivity.HomeItemsActivity" />
+        <activity android:name=".Activities.Changepassword.ChangePasswordActivity" />
+        <activity
+            android:name=".Activities.EditProfile.EditProfileActivity"
+            android:exported="true" />
+        <activity android:name=".Activities.Settings.SettingActivity" />
+        <activity android:name=".Activities.Checkout.CheckOutActivity" />
+        <activity android:name=".Activities.AddNewCard.AddNewCardActivity" />
+        <activity android:name=".Activities.PaymentMethod.PaymentMethodActivity" />
+        <activity android:name=".Activities.AddShippingAddress.AddShippingAddressActivity" />
+        <activity android:name=".Activities.ShippingAddress.ShippingAddressActivity" />
+        <activity android:name=".Activities.OrderDetails.OrderDetailsActivity" />
+        <activity android:name=".Activities.MyOrders.MyOrderActivity" />
+        <activity android:name=".Activities.Filter.FilterActivity" />
+        <activity android:name=".Activities.Builder.BuilderActivity" />
+        <activity android:name=".Activities.Painters_Plasters.Painter_PlastersActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.Splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.HomeBottomNavigationActivity"
+            android:label="@string/title_activity_home_bottom_navigation" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.package.name.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file" />
+        </provider>
+
+        <!--        <meta-data-->
+        <!--            android:name="com.facebook.sdk.ApplicationId"-->
+        <!--            android:value="@string/facebook_app_id" />-->
+
+        <!--        <activity-->
+        <!--            android:name="com.facebook.FacebookActivity"-->
+        <!--            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+        <!--            android:label="@string/app_name" />-->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

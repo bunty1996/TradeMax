@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.extralam</groupId>
+  <artifactId>Stripe-Android</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>extralam/Stripe-Android</name>
+  <description>Simple Android Stripe implement Library</description>
+  <url>https://github.com/extralam/Stripe-Android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>extralam</id>
+      <name></name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/extralam/Stripe-Android.git</connection>
+    <developerConnection>scm:git://github.com/extralam/Stripe-Android.git</developerConnection>
+    <url>git://github.com/extralam/Stripe-Android.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>23.+</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.stripe</groupId>
+      <artifactId>stripe-android</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

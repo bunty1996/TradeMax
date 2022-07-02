@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stripe",
+    "module": "stripe-3ds2-android",
+    "version": "6.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-3ds2-android-6.1.1.aar",
+          "url": "stripe-3ds2-android-6.1.1.aar",
+          "size": 647856,
+          "sha512": "ce8adafb2031041134604597750b6bcd1450e597ee1afc4fad2e684cc449b576784a028fac6dcf37373cf4218bd0f0c75dcb57c78e79cb5f53a44a309d5251f4",
+          "sha256": "2b4da5d5c8475bb7f98998ac67db1238b1bc0325061ba519b9c0c21a0c726c30",
+          "sha1": "13900c4a14984f44b56a55fe49e300b91b0d90a4",
+          "md5": "38e61c69d5a7bee3f4034ca2e12f46eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.3.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.69"
+          }
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.11.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe-3ds2-android-6.1.1.aar",
+          "url": "stripe-3ds2-android-6.1.1.aar",
+          "size": 647856,
+          "sha512": "ce8adafb2031041134604597750b6bcd1450e597ee1afc4fad2e684cc449b576784a028fac6dcf37373cf4218bd0f0c75dcb57c78e79cb5f53a44a309d5251f4",
+          "sha256": "2b4da5d5c8475bb7f98998ac67db1238b1bc0325061ba519b9c0c21a0c726c30",
+          "sha1": "13900c4a14984f44b56a55fe49e300b91b0d90a4",
+          "md5": "38e61c69d5a7bee3f4034ca2e12f46eb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+com.jjoe64.graphview
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType

@@ -1,0 +1,16 @@
+int attr left_index 0x7f010004
+int attr right_index 0x7f010005
+int attr thumb_color 0x7f010001
+int attr thumb_normal_radius 0x7f010002
+int attr thumb_pressed_radius 0x7f010003
+int attr tick_count 0x7f010000
+int color thumb_default 0x7f020000
+int color thumb_ripple_color 0x7f020001
+int string app_name 0x7f030000
+int[] styleable RangeSeekBar { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005 }
+int styleable RangeSeekBar_left_index 4
+int styleable RangeSeekBar_right_index 5
+int styleable RangeSeekBar_thumb_color 1
+int styleable RangeSeekBar_thumb_normal_radius 2
+int styleable RangeSeekBar_thumb_pressed_radius 3
+int styleable RangeSeekBar_tick_count 0

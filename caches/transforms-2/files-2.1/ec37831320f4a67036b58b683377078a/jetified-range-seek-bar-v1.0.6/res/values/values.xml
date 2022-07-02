@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rsb_trackDefaultColor">#cccccc</color>
+    <color name="rsb_trackSelectedDefaultColor">#fefefe</color>
+    <dimen name="rsb_defaultSidePadding">16dp</dimen>
+    <dimen name="rsb_touchRadius">16dp</dimen>
+    <dimen name="rsb_trackDefaultThickness">2dp</dimen>
+    <string name="app_name">RangeSeekBar</string>
+    <declare-styleable name="RangeSeekBar">
+        <attr format="color" name="rsb_trackColor"/>
+        <attr format="color" name="rsb_trackSelectedColor"/>
+        <attr format="dimension" name="rsb_trackThickness"/>
+        <attr format="dimension" name="rsb_sidePadding"/>
+        <attr format="dimension" name="rsb_touchRadius"/>
+        <attr format="dimension" name="rsb_trackSelectedThickness"/>
+        <attr format="dimension" name="rsb_minThumbOffsetVertical"/>
+        <attr format="dimension" name="rsb_maxThumbOffsetVertical"/>
+        <attr format="dimension" name="rsb_minThumbOffsetHorizontal"/>
+        <attr format="dimension" name="rsb_maxThumbOffsetHorizontal"/>
+        <attr format="reference" name="rsb_minThumbDrawable"/>
+        <attr format="reference" name="rsb_maxThumbDrawable"/>
+        <attr format="integer" name="rsb_minRange"/>
+        <attr format="integer" name="rsb_max"/>
+        <attr format="integer" name="rsb_initialMinThumbValue"/>
+        <attr format="integer" name="rsb_initialMaxThumbValue"/>
+        <attr format="boolean" name="rsb_trackRoundedCaps"/>
+        <attr format="boolean" name="rsb_trackSelectedRoundedCaps"/>
+    </declare-styleable>
+</resources>

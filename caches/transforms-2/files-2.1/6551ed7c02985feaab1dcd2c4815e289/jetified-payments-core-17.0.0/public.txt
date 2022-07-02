@@ -1,0 +1,8 @@
+style StripeDefaultTheme
+style StripeToolBarStyle
+string becs_mandate_acceptance
+attr cardHintText
+attr cardTextErrorColor
+attr cardTint
+attr shouldRequirePostalCode
+attr shouldShowPostalCode

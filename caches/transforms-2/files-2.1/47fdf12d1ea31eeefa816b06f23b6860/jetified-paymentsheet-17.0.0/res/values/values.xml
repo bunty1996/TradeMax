@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="address_label_country" ns1:ignore="MissingTranslation">Country</string>
+    <string name="address_label_name" ns1:ignore="MissingTranslation">Name</string>
+    <string name="blank_and_required" ns1:ignore="MissingTranslation">%s cannot be blank.</string>
+    <string name="email" ns1:ignore="MissingTranslation">Email</string>
+    <string name="incomplete" ns1:ignore="MissingTranslation">%s is incomplete.</string>
+    <string name="invalid" ns1:ignore="MissingTranslation">%s is invalid.</string>
+    <string name="malformed" ns1:ignore="MissingTranslation">%s is malformed.</string>
+    <string name="save_for_future_use">Save this card for future %s payments</string>
+    <string name="sofort_mandate">By providing your payment information and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank. You agree to receive notifications for future debits up to 2 days before they occur.</string>
+    <string name="stripe_paymentsheet_payment_method_bancontact" ns1:ignore="MissingTranslation">Bancontact</string>
+    <string name="stripe_paymentsheet_payment_method_card" ns1:ignore="MissingTranslation">Card</string>
+    <string name="stripe_paymentsheet_payment_method_ideal" ns1:ignore="MissingTranslation">iDEAL</string>
+    <string name="stripe_paymentsheet_payment_method_sepa_debit" ns1:ignore="MissingTranslation">SEPA Debit</string>
+    <string name="stripe_paymentsheet_payment_method_sofort" ns1:ignore="MissingTranslation">Sofort</string>
+    <string name="title_bank_account" ns1:ignore="MissingTranslation">Bank Account</string>
+</resources>

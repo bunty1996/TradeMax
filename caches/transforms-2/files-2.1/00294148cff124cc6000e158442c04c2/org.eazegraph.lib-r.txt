@@ -1,0 +1,38 @@
+org.eazegraph.lib
+attr egAnimationTime
+attr egAxisTextColor
+attr egAxisTextSize
+attr egBarMargin
+attr egBarWidth
+attr egCurveSmoothness
+attr egEmptyDataText
+attr egFixedBarWidth
+attr egHighlightStrength
+attr egInnerPadding
+attr egInnerPaddingColor
+attr egInnerPaddingOutline
+attr egInnerValueColor
+attr egInnerValueSize
+attr egInnerValueString
+attr egLeftFillerSize
+attr egLegendColor
+attr egLegendHeight
+attr egLegendTextSize
+attr egLineStroke
+attr egOpenClockwise
+attr egScalingFactor
+attr egShowDecimal
+attr egShowValues
+attr egUseCubic
+attr egUseDynamicScaling
+attr egUseInnerPadding
+attr egUseInnerValue
+attr egUseLeftFiller
+attr egUseOverlapFill
+attr egXAxisStroke
+string app_name
+styleable BarChart egShowValues
+styleable BaseBarChart egBarMargin egBarWidth egFixedBarWidth
+styleable BaseChart egAnimationTime egEmptyDataText egLeftFillerSize egLegendColor egLegendHeight egLegendTextSize egShowDecimal egUseLeftFiller
+styleable PieChart egHighlightStrength egInnerPadding egInnerPaddingColor egInnerPaddingOutline egInnerValueColor egInnerValueSize egInnerValueString egOpenClockwise egUseInnerPadding egUseInnerValue
+styleable ValueLineChart egAxisTextColor egAxisTextSize egCurveSmoothness egLineStroke egScalingFactor egUseCubic egUseDynamicScaling egUseOverlapFill egXAxisStroke

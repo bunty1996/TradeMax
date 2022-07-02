@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.sharish</groupId>
+  <artifactId>CreditCardView</artifactId>
+  <version>v1.0.4</version>
+  <packaging>aar</packaging>
+  <name>sharish/CreditCardView</name>
+  <url>https://github.com/sharish/CreditCardView</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>sharish</id>
+      <name>Harish Sridharan</name>
+      <email>harish.sridhar@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/sharish/CreditCardView.git</connection>
+    <developerConnection>scm:git://github.com/sharish/CreditCardView.git</developerConnection>
+    <url>git://github.com/sharish/CreditCardView.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>cardview-v7</artifactId>
+      <version>25.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ozodrukh</groupId>
+      <artifactId>CircularReveal</artifactId>
+      <version>1.0.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,30 @@
+com.github.siyamed.shapeimageview
+attr siArrowPosition
+attr siBorderAlpha
+attr siBorderColor
+attr siBorderType
+attr siBorderWidth
+attr siForeground
+attr siRadius
+attr siShape
+attr siSquare
+attr siStrokeCap
+attr siStrokeJoin
+attr siStrokeMiter
+attr siTriangleHeight
+id bevel
+id butt
+id fill
+id left
+id miter
+id right
+id round
+id square
+id stroke
+raw imgview_diamond
+raw imgview_heart
+raw imgview_hexagon
+raw imgview_octogon
+raw imgview_pentagon
+raw imgview_star
+styleable ShaderImageView siArrowPosition siBorderAlpha siBorderColor siBorderType siBorderWidth siForeground siRadius siShape siSquare siStrokeCap siStrokeJoin siStrokeMiter siTriangleHeight

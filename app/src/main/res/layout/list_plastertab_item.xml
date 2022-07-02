@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/white"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cement"
+            android:textColor="@color/black"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:padding="5dp"
+            android:background="@drawable/circle_roundedwhite"
+            android:src="@drawable/bottle" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

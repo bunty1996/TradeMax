@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sharish:CreditCardView:v1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e425c802e347adc3b5c2732b62b4f3e/jetified-CreditCardView-v1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e425c802e347adc3b5c2732b62b4f3e/jetified-CreditCardView-v1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e425c802e347adc3b5c2732b62b4f3e/jetified-CreditCardView-v1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69b468af569f26b73c91a2e2dcadea20/jetified-CreditCardView-v1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69b468af569f26b73c91a2e2dcadea20/jetified-CreditCardView-v1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69b468af569f26b73c91a2e2dcadea20/jetified-CreditCardView-v1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26980ea2b7f8e9842de1787ec4bcd91f/jetified-CreditCardView-v1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26980ea2b7f8e9842de1787ec4bcd91f/jetified-CreditCardView-v1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26980ea2b7f8e9842de1787ec4bcd91f/jetified-CreditCardView-v1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbfe374e80e73221e3d391fa5637c838/jetified-CreditCardView-v1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbfe374e80e73221e3d391fa5637c838/jetified-CreditCardView-v1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbfe374e80e73221e3d391fa5637c838/jetified-CreditCardView-v1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4678bd3f6f129d431ad3ff9d89288d8/jetified-CreditCardView-v1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4678bd3f6f129d431ad3ff9d89288d8/jetified-CreditCardView-v1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4678bd3f6f129d431ad3ff9d89288d8/jetified-CreditCardView-v1.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sharish/CreditCardView/v1.0.4/72683a9659abaee7e46fd89291a9f57eb18fcd97/CreditCardView-v1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

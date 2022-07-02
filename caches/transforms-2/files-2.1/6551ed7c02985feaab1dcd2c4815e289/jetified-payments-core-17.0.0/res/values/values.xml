@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="stripe_accent_color_default">#ff2296f3</color>
+    <color name="stripe_add_payment_method_pressed">#3332325d</color>
+    <color name="stripe_card_form_view_background_default">@android:color/transparent</color>
+    <color name="stripe_card_form_view_background_disabled">#f8f8f8</color>
+    <color name="stripe_card_form_view_form_border">#33787880</color>
+    <color name="stripe_card_form_view_form_error">#cf6679</color>
+    <color name="stripe_card_form_view_textinput_color">#e61a1a1a</color>
+    <color name="stripe_card_form_view_textinput_disabled_color">#61000000</color>
+    <color name="stripe_card_widget_progress_background">#4F566B</color>
+    <color name="stripe_card_widget_progress_foreground">#ffffffcc</color>
+    <color name="stripe_color_text_secondary_default">#ff32325d</color>
+    <color name="stripe_color_text_unselected_primary_default">#ff000000</color>
+    <color name="stripe_color_text_unselected_secondary_default">#80323232</color>
+    <color name="stripe_control_normal_color_default">#ff90A4AE</color>
+    <color name="stripe_error_text_dark_theme">#ffe85746</color>
+    <color name="stripe_error_text_light_theme">#ffeb1c26</color>
+    <color name="stripe_paymentsheet_add_payment_method_form_stroke">@android:color/transparent
+    </color>
+    <color name="stripe_paymentsheet_add_pm_card_selected_stroke">#343434</color>
+    <color name="stripe_paymentsheet_add_pm_card_unselected_stroke">#E7E7E7</color>
+    <color name="stripe_paymentsheet_background">#ffffff</color>
+    <color name="stripe_paymentsheet_elements_background_default">
+        @color/stripe_paymentsheet_background
+    </color>
+    <color name="stripe_paymentsheet_elements_background_disabled">#F8F8F8</color>
+    <color name="stripe_paymentsheet_error_text">#DC2727</color>
+    <color name="stripe_paymentsheet_form">#757575</color>
+    <color name="stripe_paymentsheet_form_border">#33787880</color>
+    <color name="stripe_paymentsheet_form_error">#CF6679</color>
+    <color name="stripe_paymentsheet_googlepay_divider_background">@android:color/white</color>
+    <color name="stripe_paymentsheet_googlepay_divider_line">#1F000000</color>
+    <color name="stripe_paymentsheet_googlepay_divider_text">#99000000</color>
+    <color name="stripe_paymentsheet_header_text">#565656</color>
+    <color name="stripe_paymentsheet_payment_method_label_text">#DE000000</color>
+    <color name="stripe_paymentsheet_payment_method_label_text_disabled">#61000000</color>
+    <color name="stripe_paymentsheet_payment_option_selected_stroke">#1EA672</color>
+    <color name="stripe_paymentsheet_payment_option_unselected_stroke">@android:color/transparent
+    </color>
+    <color name="stripe_paymentsheet_primary_button_confirming_progress">#ffffff</color>
+    <color name="stripe_paymentsheet_primary_button_default_background">#0074D4</color>
+    <color name="stripe_paymentsheet_primary_button_success_background">#24B47E</color>
+    <color name="stripe_paymentsheet_primary_button_text">@android:color/white</color>
+    <color name="stripe_paymentsheet_textinput_color">#E61A1A1A</color>
+    <color name="stripe_paymentsheet_textinputlayout_hint">#661A1A1A</color>
+    <color name="stripe_paymentsheet_title_text">#303030</color>
+    <color name="stripe_paymentsheet_toolbar_button_color">#000000</color>
+    <color name="stripe_swipe_start_payment_method">#DFDEDF</color>
+    <color name="stripe_swipe_threshold_payment_method">#D5473F</color>
+    <color name="stripe_text_color_secondary">@android:color/secondary_text_light</color>
+    <color name="stripe_title_text_color">@android:color/white</color>
+    <color name="stripe_toolbar_color_default">#ff3f51b5</color>
+    <color name="stripe_toolbar_color_default_dark">#ff324090</color>
+    <dimen name="card_brand_spinner_dropdown_drawable_padding">5dp</dimen>
+    <dimen name="card_brand_spinner_dropdown_padding">20dp</dimen>
+    <dimen name="card_brand_spinner_dropdown_width">200dp</dimen>
+    <dimen name="card_brand_spinner_image_height">21dp</dimen>
+    <dimen name="card_brand_spinner_image_width">32dp</dimen>
+    <dimen name="card_brand_view_height">21dp</dimen>
+    <dimen name="card_brand_view_width">32dp</dimen>
+    <dimen name="ciw_stripe_edit_text_size">18sp</dimen>
+    <dimen name="stripe_activity_total_margin">8dp</dimen>
+    <dimen name="stripe_add_address_vertical_margin">16dp</dimen>
+    <dimen name="stripe_add_card_element_vertical_margin">12dp</dimen>
+    <dimen name="stripe_add_card_expiry_middle_margin">8dp</dimen>
+    <dimen name="stripe_add_card_total_margin">16dp</dimen>
+    <dimen name="stripe_add_payment_method_vertical_padding">8dp</dimen>
+    <dimen name="stripe_android_pay_button_layout_margin">24dp</dimen>
+    <dimen name="stripe_android_pay_button_separation">8dp</dimen>
+    <dimen name="stripe_android_pay_confirmation_margin">8dp</dimen>
+    <dimen name="stripe_becs_debit_widget_edit_text_size">14sp</dimen>
+    <dimen name="stripe_becs_debit_widget_mandate_acceptance_padding_top">12dp</dimen>
+    <dimen name="stripe_card_cvc_initial_margin">1000dp</dimen>
+    <dimen name="stripe_card_expiry_initial_margin">200dp</dimen>
+    <dimen name="stripe_card_form_view_card_elevation">1dp</dimen>
+    <dimen name="stripe_card_form_view_error_text_margin_horizontal">17dp</dimen>
+    <dimen name="stripe_card_form_view_error_textsize">13sp</dimen>
+    <dimen name="stripe_card_form_view_text_input_layout_padding_horizontal">12dp</dimen>
+    <dimen name="stripe_card_form_view_text_input_layout_padding_vertical">4dp</dimen>
+    <dimen name="stripe_card_form_view_text_margin_horizontal">12dp</dimen>
+    <dimen name="stripe_card_form_view_text_margin_vertical">4dp</dimen>
+    <dimen name="stripe_card_form_view_text_minheight">48dp</dimen>
+    <dimen name="stripe_card_form_view_textsize">14sp</dimen>
+    <dimen name="stripe_card_icon_multiline_padding">8dp</dimen>
+    <dimen name="stripe_card_icon_multiline_width">24dp</dimen>
+    <dimen name="stripe_card_icon_padding">12dp</dimen>
+    <dimen name="stripe_card_number_text_input_layout_progress_end_margin">14dp</dimen>
+    <dimen name="stripe_card_number_text_input_layout_progress_top_margin">10dp</dimen>
+    <dimen name="stripe_card_widget_min_width">360dp</dimen>
+    <dimen name="stripe_card_widget_progress_size">12dp</dimen>
+    <dimen name="stripe_cmw_edit_text_minheight">48dp</dimen>
+    <dimen name="stripe_list_row_end_padding">8dp</dimen>
+    <dimen name="stripe_list_row_height">48dp</dimen>
+    <dimen name="stripe_list_row_start_padding">20dp</dimen>
+    <dimen name="stripe_list_top_margin">8dp</dimen>
+    <dimen name="stripe_masked_card_icon_height">21dp</dimen>
+    <dimen name="stripe_masked_card_icon_width">32dp</dimen>
+    <dimen name="stripe_masked_card_vertical_padding">4dp</dimen>
+    <dimen name="stripe_notification_text_size">14sp</dimen>
+    <dimen name="stripe_paymentsheet_add_payment_method_form_stroke_width">0dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_elevation">0dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_elevation_selected">1.5dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_height">60dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_stroke_width">1.5dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_stroke_width_selected">2dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_width">112dp</dimen>
+    <dimen name="stripe_paymentsheet_button_container_spacing">10dp</dimen>
+    <dimen name="stripe_paymentsheet_button_container_spacing_bottom">34dp</dimen>
+    <dimen name="stripe_paymentsheet_card_elevation">2dp</dimen>
+    <dimen name="stripe_paymentsheet_card_stroke_width">1dp</dimen>
+    <dimen name="stripe_paymentsheet_card_stroke_width_selected">2dp</dimen>
+    <dimen name="stripe_paymentsheet_cardwidget_margin_horizontal">12dp</dimen>
+    <dimen name="stripe_paymentsheet_cardwidget_margin_vertical">4dp</dimen>
+    <dimen name="stripe_paymentsheet_error_textsize">13sp</dimen>
+    <dimen name="stripe_paymentsheet_form_textsize">14sp</dimen>
+    <dimen name="stripe_paymentsheet_outer_spacing_horizontal">20dp</dimen>
+    <dimen name="stripe_paymentsheet_outer_spacing_top">10dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentmethod_icon_height">64dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentmethod_icon_radius">6dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentmethod_icon_width">100dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentoption_card_height">25dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentoption_card_width">35dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentoptions_margin_bottom">26dp</dimen>
+    <dimen name="stripe_paymentsheet_paymentoptions_margin_top">10dp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_check_padding">5dp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_corner_radius">6dp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_height">48sp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_icon_padding">8dp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_icon_size">20dp</dimen>
+    <dimen name="stripe_paymentsheet_primary_button_margin">3dp</dimen>
+    <dimen name="stripe_paymentsheet_toolbar_button_size">24dp</dimen>
+    <dimen name="stripe_paymentsheet_toolbar_elevation">4dp</dimen>
+    <dimen name="stripe_shipping_check_icon_width">24dp</dimen>
+    <dimen name="stripe_shipping_widget_horizontal_margin">16dp</dimen>
+    <dimen name="stripe_shipping_widget_outer_margin">12dp</dimen>
+    <dimen name="stripe_shipping_widget_vertical_margin">4dp</dimen>
+    <dimen name="stripe_toolbar_elevation">4dp</dimen>
+    <item name="stripe_add_payment_method_footer" type="id"/>
+    <item name="stripe_add_payment_method_form" type="id"/>
+    <item name="stripe_default_reader_id" type="id"/>
+    <item name="stripe_payment_methods_add_card" type="id"/>
+    <item name="stripe_payment_methods_add_fpx" type="id"/>
+    <item name="stripe_payment_methods_add_netbanking" type="id"/>
+    <item name="stripe_payment_methods_footer" type="id"/>
+    <integer name="stripe_card_widget_progress_fade_in_duration">600</integer>
+    <integer name="stripe_card_widget_progress_fade_out_duration">300</integer>
+    <integer name="stripe_date_digits_length">4</integer>
+    <integer name="stripe_light_text_alpha_hex">204</integer>
+    <string name="acc_label_card_number">Card number</string>
+    <string name="acc_label_card_number_node">%s, Card number</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Expiration date</string>
+    <string name="acc_label_expiry_date_node">%s, Expiration date</string>
+    <string name="acc_label_zip">ZIP Code</string>
+    <string name="acc_label_zip_short">ZIP</string>
+    <string name="add_card">Add a new debit or credit card to make purchases in this app.</string>
+    <string name="added">Added %s</string>
+    <string name="address_city_required">Please enter your city</string>
+    <string name="address_country_invalid">Your country is invalid</string>
+    <string name="address_county_required">Please enter your county</string>
+    <string name="address_label_address">Address</string>
+    <string name="address_label_address_line1">Address line 1</string>
+    <string name="address_label_address_line1_optional">Address line 1 (optional)</string>
+    <string name="address_label_address_line2_optional">Address line 2 (optional)</string>
+    <string name="address_label_address_optional">Address (optional) </string>
+    <string name="address_label_apt">Apt.</string>
+    <string name="address_label_apt_optional">Apt. (optional)</string>
+    <string name="address_label_city">City</string>
+    <string name="address_label_city_optional">City (optional)</string>
+    <string name="address_label_country">Country</string>
+    <string name="address_label_county">County</string>
+    <string name="address_label_county_optional">County (optional)</string>
+    <string name="address_label_name">Name</string>
+    <string name="address_label_phone_number">Phone number</string>
+    <string name="address_label_phone_number_optional">Phone number (optional)</string>
+    <string name="address_label_postal_code">Postal code</string>
+    <string name="address_label_postal_code_optional">Postal code (optional)</string>
+    <string name="address_label_postcode">Postcode</string>
+    <string name="address_label_postcode_optional">Postcode (optional)</string>
+    <string name="address_label_province">Province</string>
+    <string name="address_label_province_optional">Province (optional)</string>
+    <string name="address_label_region_generic"> State / Province / Region</string>
+    <string name="address_label_region_generic_optional">State / Province / Region (optional)</string>
+    <string name="address_label_state">State</string>
+    <string name="address_label_state_optional">State (optional)</string>
+    <string name="address_label_zip_code">ZIP code</string>
+    <string name="address_label_zip_code_optional">ZIP code (optional)</string>
+    <string name="address_label_zip_postal_code">ZIP/Postal code</string>
+    <string name="address_label_zip_postal_code_optional">ZIP / Postal code (optional)</string>
+    <string name="address_name_required">Please enter your name</string>
+    <string name="address_phone_number_required">Please enter your phone number</string>
+    <string name="address_postal_code_invalid">Your postal code is invalid</string>
+    <string name="address_postcode_invalid">Your postcode is invalid</string>
+    <string name="address_province_required">Please enter your province</string>
+    <string name="address_region_generic_required">Please enter your State/Province/Region</string>
+    <string name="address_required">Please enter your address</string>
+    <string name="address_shipping_address">Shipping Address</string>
+    <string name="address_state_required">Please enter your state</string>
+    <string name="address_zip_invalid">Your ZIP code is invalid.</string>
+    <string name="address_zip_postal_invalid">Your ZIP/Postal code is invalid</string>
+    <string name="becs_mandate_acceptance">
+    By providing your bank account details and confirming this payment, you agree to this
+    Direct Debit Request and the
+    &lt;a href="https://stripe.com/au-becs-dd-service-agreement/legal">Direct Debit Request service agreement&lt;/a>,
+    and authorise Stripe Payments Australia Pty Ltd ACN 160 180 343 Direct Debit User ID number 507156
+    (“Stripe”) to debit your account through the Bulk Electronic Clearing System (BECS) on
+    behalf of %1$s (the "Merchant") for any amounts separately communicated to you
+    by the Merchant. You certify that you are either an account holder or an authorised
+    signatory on the account listed above.
+    </string>
+    <string name="becs_widget_account_number">Account number</string>
+    <string name="becs_widget_account_number_incomplete">Your account number is incomplete.</string>
+    <string name="becs_widget_account_number_required">Your account number is required.</string>
+    <string name="becs_widget_bsb">BSB</string>
+    <string name="becs_widget_bsb_incomplete">The BSB you entered is incomplete.</string>
+    <string name="becs_widget_bsb_invalid">The BSB you entered is invalid.</string>
+    <string name="becs_widget_email">Email Address</string>
+    <string name="becs_widget_email_invalid">Your email address is invalid.</string>
+    <string name="becs_widget_email_required">Your email address is required.</string>
+    <string name="becs_widget_name">Name</string>
+    <string name="becs_widget_name_required">Your name is required.</string>
+    <string name="card_ending_in">%1$s ending in %2$s</string>
+    <string name="card_number_hint" translatable="false">1234 1234 1234 1234</string>
+    <string name="close">Close</string>
+    <string name="cvc_amex_hint" translatable="false">CVV</string>
+    <string name="cvc_multiline_helper" translatable="false">123</string>
+    <string name="cvc_multiline_helper_amex" translatable="false">1234</string>
+    <string name="cvc_number_hint" translatable="false">CVC</string>
+    <string name="delete_payment_method">Delete payment method</string>
+    <string name="delete_payment_method_prompt_title">Delete payment method?</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="expiry_label_short">Expiry</string>
+    <string name="fpx_bank_offline">%s - Offline</string>
+    <string name="google_pay" translatable="false">Google Pay</string>
+    <string name="incomplete_expiry_date">Your card\'s expiration date is incomplete.</string>
+    <string name="invalid_card_number">Your card\'s number is invalid.</string>
+    <string name="invalid_cvc">Your card\'s security code is invalid.</string>
+    <string name="invalid_expiry_month">Your card\'s expiration month is invalid.</string>
+    <string name="invalid_expiry_year">Your card\'s expiration year is invalid.</string>
+    <string name="invalid_shipping_information">Invalid Shipping Address</string>
+    <string name="invalid_zip">Your postal code is incomplete.</string>
+    <string name="no_payment_methods">No payment methods.</string>
+    <string name="payment_method_add_new_card">Add new card…</string>
+    <string name="payment_method_add_new_fpx">Select Bank Account (FPX)…</string>
+    <string name="paymentsheet_payment_method_item_card_number" translatable="false">····%1$s</string>
+    <string name="price_free">Free</string>
+    <string name="removed">Removed %s</string>
+    <string name="secure_checkout">Secure Checkout</string>
+    <string name="sofort_mandate_acceptance" ns1:ignore="MissingTranslation">By providing your payment information and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank. You agree to receive notifications for future debits up to 2 days before they occur.</string>
+    <string name="stripe_buy_with_googlepay_button_content_description">Buy with Google Pay</string>
+    <string name="stripe_expiration_date_allowlist" translatable="false">0123456789/</string>
+    <string name="stripe_failure_connection_error">We are experiencing issues connecting to our payments provider. Please check your internet connection and try again.</string>
+    <string name="stripe_failure_reason_authentication">We are unable to authenticate your payment method. Please choose a different payment method and try again.</string>
+    <string name="stripe_failure_reason_timed_out">Timed out authenticating your payment method -- try again</string>
+    <string name="stripe_google_pay_error_internal" ns1:ignore="MissingTranslation">An internal error occurred.</string>
+    <string name="stripe_google_pay_error_resolution_required" ns1:ignore="MissingTranslation">Completing the operation requires some form of resolution.</string>
+    <string name="stripe_paymentsheet_add_button_label">Add</string>
+    <string name="stripe_paymentsheet_add_payment_method_button_label" ns1:ignore="MissingTranslation">+ Add</string>
+    <string name="stripe_paymentsheet_add_payment_method_card_information">Card information</string>
+    <string name="stripe_paymentsheet_add_payment_method_country_or_region">Country or region</string>
+    <string name="stripe_paymentsheet_add_payment_method_title">Add your payment information</string>
+    <string name="stripe_paymentsheet_back">Back</string>
+    <string name="stripe_paymentsheet_close">Close</string>
+    <string name="stripe_paymentsheet_expiration_date_hint">MM / YY</string>
+    <string name="stripe_paymentsheet_or_pay_using" ns1:ignore="MissingTranslation">Or pay using</string>
+    <string name="stripe_paymentsheet_or_pay_with_card">Or pay with a card</string>
+    <string name="stripe_paymentsheet_pay_button_amount">Pay %s</string>
+    <string name="stripe_paymentsheet_pay_button_label">Pay</string>
+    <string name="stripe_paymentsheet_primary_button_processing">Processing…</string>
+    <string name="stripe_paymentsheet_save_this_card_with_merchant_name">Save this card for future %s payments</string>
+    <string name="stripe_paymentsheet_select_payment_method">Select your payment method</string>
+    <string name="stripe_paymentsheet_setup_button_label">Set up</string>
+    <string name="stripe_paymentsheet_total_amount" ns1:ignore="MissingTranslation">Total: %s</string>
+    <string name="stripe_postalcode_placeholder" translatable="false">12345</string>
+    <string name="stripe_verify_your_payment" ns1:ignore="MissingTranslation">Verify your payment</string>
+    <string name="title_add_a_card">Add a Card</string>
+    <string name="title_add_an_address">Add an Address</string>
+    <string name="title_bank_account">Bank Account</string>
+    <string name="title_payment_method">Payment Method</string>
+    <string name="title_select_shipping_method">Select Shipping Method</string>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog"/>
+    <style name="Stripe.Base.BecsDebitWidget.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/stripe_becs_debit_widget_edit_text_size</item>
+    </style>
+    <style name="Stripe.Base.BecsDebitWidget.MandateAcceptanceTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">
+            @dimen/stripe_becs_debit_widget_mandate_acceptance_padding_top
+        </item>
+    </style>
+    <style name="Stripe.Base.CardInputWidget.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/ciw_stripe_edit_text_size</item>
+    </style>
+    <style name="Stripe.Base.CardInputWidget.TextInputLayout" parent="Widget.Design.TextInputLayout"/>
+    <style name="Stripe.Base.CardMultilineWidget.TextInputLayout" parent="Widget.Design.TextInputLayout"/>
+    <style name="Stripe.BecsDebitWidget.EditText" parent="Stripe.Base.BecsDebitWidget.EditText"/>
+    <style name="Stripe.BecsDebitWidget.MandateAcceptanceTextView" parent="Stripe.Base.BecsDebitWidget.MandateAcceptanceTextView"/>
+    <style name="Stripe.CardInputWidget.EditText" parent="Stripe.Base.CardInputWidget.EditText"/>
+    <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
+    <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout"/>
+    <style name="StripeActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="StripeAddPaymentMethodItemCard">
+        <item name="android:layout_width">@dimen/stripe_paymentsheet_add_pm_card_width</item>
+        <item name="android:layout_height">@dimen/stripe_paymentsheet_add_pm_card_height</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">@dimen/stripe_paymentsheet_add_pm_card_elevation</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_add_pm_card_stroke_width</item>
+        <item name="strokeColor">@color/stripe_paymentsheet_add_pm_card_stroke</item>
+        <item name="cardBackgroundColor">@color/stripe_paymentsheet_elements_background_states
+        </item>
+        <item name="cardForegroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">6dp</item>
+    </style>
+    <style name="StripeBaseTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">@color/stripe_accent_color_default</item>
+        <item name="colorControlNormal">@color/stripe_control_normal_color_default</item>
+        <item name="colorPrimary">@color/stripe_toolbar_color_default</item>
+        <item name="colorPrimaryDark">@color/stripe_toolbar_color_default_dark</item>
+        <item name="titleTextColor">@color/stripe_title_text_color</item>
+        <item name="android:textColorSecondary">@color/stripe_text_color_secondary</item>
+    </style>
+    <style name="StripeCardErrorTextView">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColor">@color/stripe_card_form_view_form_error</item>
+        <item name="android:textSize">@dimen/stripe_card_form_view_error_textsize</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:layout_marginStart">
+            @dimen/stripe_card_form_view_error_text_margin_horizontal
+        </item>
+        <item name="android:layout_marginEnd">
+            @dimen/stripe_card_form_view_error_text_margin_horizontal
+        </item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="StripeCardFormCountryItem">
+        <item name="android:inputType">none</item>
+        <item name="android:editable">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/stripe_card_form_view_textsize</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/stripe_card_form_view_text_color</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+    </style>
+    <style name="StripeCardFormCountryTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="android:paddingStart">
+            @dimen/stripe_card_form_view_text_input_layout_padding_horizontal
+        </item>
+        <item name="android:paddingEnd">
+            @dimen/stripe_card_form_view_text_input_layout_padding_horizontal
+        </item>
+        <item name="android:paddingTop">
+            @dimen/stripe_card_form_view_text_input_layout_padding_vertical
+        </item>
+        <item name="android:paddingBottom">
+            @dimen/stripe_card_form_view_text_input_layout_padding_vertical
+        </item>
+        <item name="android:background">
+            @drawable/stripe_card_form_view_text_input_layout_background
+        </item>
+    </style>
+    <style name="StripeCardFormEditText">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColor">@color/stripe_card_form_view_text_color</item>
+        <item name="android:textSize">@dimen/stripe_card_form_view_textsize</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:minHeight">@dimen/stripe_card_form_view_text_minheight</item>
+    </style>
+    <style name="StripeCardFormTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:paddingStart">
+            @dimen/stripe_card_form_view_text_input_layout_padding_horizontal
+        </item>
+        <item name="android:paddingEnd">
+            @dimen/stripe_card_form_view_text_input_layout_padding_horizontal
+        </item>
+        <item name="android:paddingTop">
+            @dimen/stripe_card_form_view_text_input_layout_padding_vertical
+        </item>
+        <item name="android:paddingBottom">
+            @dimen/stripe_card_form_view_text_input_layout_padding_vertical
+        </item>
+        <item name="android:background">
+            @drawable/stripe_card_form_view_text_input_layout_background
+        </item>
+    </style>
+    <style name="StripeCardFormView">
+        <item name="cardFormStyle">standard</item>
+    </style>
+    <style name="StripeCardFormView.Borderless">
+        <item name="cardFormStyle">borderless</item>
+    </style>
+    <style name="StripeDefault3DS2Theme" parent="BaseStripe3DS2Theme"/>
+    <style name="StripeDefaultTheme" parent="StripeBaseTheme"/>
+    <style name="StripeErrorTextStyle">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">@dimen/stripe_notification_text_size</item>
+    </style>
+    <style name="StripeGooglePayDefaultTheme" parent="StripePaymentSheetBaseTheme"/>
+    <style name="StripePaymentAddPaymentMethodMaterialCard">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:checkable">false</item>
+        <item name="cardElevation">1dp</item>
+        <item name="strokeColor">@color/stripe_paymentsheet_add_payment_method_form_stroke</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_add_payment_method_form_stroke_width
+        </item>
+    </style>
+    <style name="StripePaymentOptionItemCard">
+        <item name="android:layout_width">@dimen/stripe_paymentsheet_paymentmethod_icon_width</item>
+        <item name="android:layout_height">@dimen/stripe_paymentsheet_paymentmethod_icon_height
+        </item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="cardElevation">@dimen/stripe_paymentsheet_card_elevation</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_card_stroke_width</item>
+        <item name="strokeColor">@color/stripe_paymentsheet_card_stroke</item>
+        <item name="cardBackgroundColor">@color/stripe_paymentsheet_elements_background_states
+        </item>
+        <item name="cardForegroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">6dp</item>
+    </style>
+    <style name="StripePaymentOptionItemCardCheck">
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/stripe_ic_check_circle</item>
+
+        <!-- modify the bottom and end layout to correctly position the check -->
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:paddingEnd">-2dp</item>
+    </style>
+    <style name="StripePaymentOptionItemCardImage">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="StripePaymentOptionItemContainer">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="StripePaymentSheetAddPaymentMethodTheme">
+        <item name="colorOnSurface">@color/stripe_paymentsheet_form</item>
+        <item name="colorPrimary">@color/stripe_paymentsheet_form</item>
+        <item name="colorAccent">@color/stripe_paymentsheet_form</item>
+    </style>
+    <style name="StripePaymentSheetAutocompleteTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states</item>
+    </style>
+    <style name="StripePaymentSheetBaseTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorSurface">@color/stripe_paymentsheet_background</item>
+    </style>
+    <style name="StripePaymentSheetCountryItem">
+        <item name="android:inputType">none</item>
+        <item name="android:editable">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_textinput_color</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingEnd">13dp</item>
+    </style>
+    <style name="StripePaymentSheetDefaultTheme" parent="StripePaymentSheetBaseTheme"/>
+    <style name="StripePaymentSheetErrorMessage">
+        <item name="android:textColor">@color/stripe_paymentsheet_error_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+    <style name="StripePaymentSheetFormDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/stripe_paymentsheet_form_border</item>
+    </style>
+    <style name="StripePaymentSheetLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_header_text</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginEnd">1dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    <style name="StripePaymentSheetPaymentMethodsLabel">
+        <item name="android:textColor">@color/stripe_paymentsheet_payment_method_label_text_states
+        </item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+    <style name="StripePaymentSheetTextInputEditText">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_textinput_color</item>
+    </style>
+    <style name="StripePaymentSheetTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states</item>
+        <item name="android:textColorHint">@color/stripe_paymentsheet_textinputlayout_hint</item>
+    </style>
+    <style name="StripePaymentSheetTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_title_text</item>
+        <item name="android:lineSpacingExtra">9sp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="StripePaymentSheetToolbar">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingStart">@dimen/stripe_paymentsheet_outer_spacing_horizontal</item>
+        <item name="android:paddingEnd">@dimen/stripe_paymentsheet_outer_spacing_horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="StripePaymentSheetTotalLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_header_text</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="StripeToolBarStyle" parent="@style/ThemeOverlay.AppCompat">
+        <item name="colorControlNormal">?attr/titleTextColor</item>
+        <item name="actionMenuTextColor">?attr/titleTextColor</item>
+        <item name="android:actionButtonStyle">@style/StripeActionButtonStyle</item>
+    </style>
+    <style name="StripeTransparentTheme" parent="Theme.AppCompat">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="StripeVerticalDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/stripe_paymentsheet_form_border</item>
+    </style>
+    <declare-styleable name="BecsDebitWidget">
+        <attr format="string" name="companyName"/>
+    </declare-styleable>
+    <declare-styleable name="CardElement">
+        <attr format="boolean" name="shouldShowPostalCode"/>
+        <attr format="boolean" name="shouldRequirePostalCode"/>
+        <attr format="boolean" name="shouldRequireUsZipCode"/>
+    </declare-styleable>
+    <declare-styleable name="CardInputView">
+        <attr format="string" name="cardHintText"/>
+        <attr format="color" name="cardTint"/>
+        <attr format="color" name="cardTextErrorColor"/>
+        <attr name="android:focusedByDefault"/>
+    </declare-styleable>
+    <declare-styleable name="StripeCardFormView">
+        <attr format="enum" name="cardFormStyle">
+            <enum name="standard" value="0"/>
+            <enum name="borderless" value="1"/>
+        </attr>
+        <attr format="reference" name="backgroundColorStateList"/>
+    </declare-styleable>
+    <declare-styleable name="StripeCountryAutoCompleteTextInputLayout">
+        <attr format="reference" name="countryAutoCompleteStyle"/>
+        <attr format="reference" name="countryItemLayout"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thumb_default">#f44336</color>
+    <color name="thumb_ripple_color">#757575</color>
+    <declare-styleable name="RangeSeekBar"><attr format="integer" name="tick_count"/><attr format="color" name="thumb_color"/><attr format="dimension" name="thumb_normal_radius"/><attr format="dimension" name="thumb_pressed_radius"/><attr format="integer" name="left_index"/><attr format="integer" name="right_index"/></declare-styleable>
+    <string name="app_name">Range Seekbar</string>
+</resources>

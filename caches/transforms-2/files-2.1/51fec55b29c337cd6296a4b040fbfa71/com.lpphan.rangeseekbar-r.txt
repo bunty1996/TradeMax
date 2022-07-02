@@ -1,0 +1,11 @@
+com.lpphan.rangeseekbar
+attr left_index
+attr right_index
+attr thumb_color
+attr thumb_normal_radius
+attr thumb_pressed_radius
+attr tick_count
+color thumb_default
+color thumb_ripple_color
+string app_name
+styleable RangeSeekBar left_index right_index thumb_color thumb_normal_radius thumb_pressed_radius tick_count
